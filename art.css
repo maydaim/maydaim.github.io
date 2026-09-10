@@ -63,15 +63,10 @@ footer {
 }
 
 .toppart {
+    display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5px;
-}
-
-.grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 4fr;
-    margin: auto;
 }
 
 .namebox {
@@ -81,12 +76,12 @@ footer {
     padding: 40px 10px 20px 10px;
     justify-content: center;
     align-items: center;
-    place-items: center
+    place-items: center;
+    max-height: fit-content;
 }
 
 .nametext {
     text-align: center;
-    margin-top: 20px;
 }
 
 nav {
@@ -185,7 +180,7 @@ nav {
 .pagedoll {
     text-align: center;
     border-radius: 100px;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 20px 0px 10px;
 }
 
 .mii {
@@ -315,24 +310,6 @@ h2 {
     font-family: romancea;
 }
 
-.wave-text span {
-    display: inline-block;
-    animation: wave 3s ease-in-out infinite;
-}
-
-.wave-text span:nth-child(1) {
-    animation-delay: 0s;
-}
-.wave-text span:nth-child(2) {
-    animation-delay: 0.2s;
-}
-.wave-text span:nth-child(3) {
-    animation-delay: 0.4s;
-}
-.wave-text span:nth-child(4) {
-    animation-delay: 0.6s;
-}
-
 .blurb {
     line-height: 25px;
     margin-top: 5px;
@@ -439,6 +416,37 @@ a:hover {
     50% {
         transform: translateY(-5px);
     }
+}
+
+.wave-text span {
+    display: inline-block;
+    animation: wave 3s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.wave-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.wave-text span:nth-child(6) {
+    animation-delay: 1s;
+}
+.wave-text span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.wave-text span:nth-child(8) {
+    animation-delay: 1.4s;
 }
 
 @media (prefers-reduced-motion: reduce) {
