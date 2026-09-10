@@ -29,6 +29,7 @@ html {
 body {
     background:#995A59 url(https://file.garden/amgFvkc3WFTKhs18/maydaim/heart_bg.PNG);
     background-size: 70px;
+    cursor: url(https://file.garden/amgFvkc3WFTKhs18/maydaim/star_cursor), auto;
     font-family: 'willow', Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color:#e9c9c8;
@@ -36,6 +37,10 @@ body {
     margin-top: 100px !important;
     margin-bottom: 100px !important;
     max-width: 750px;
+}
+
+a, .navbutton, .socialicon, button {
+    cursor: url(https://file.garden/amgFvkc3WFTKhs18/maydaim/sym594.cur), pointer;
 }
 
 header {
