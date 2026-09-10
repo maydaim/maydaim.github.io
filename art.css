@@ -163,6 +163,17 @@ nav {
         max-width: 350px;
         margin: 10px;
     }
+
+    .mii {
+        height: auto;
+        display: flex !important;
+        float: none !important;
+    }
+
+    pre {
+        display: none;
+    }
+    
 }
 
 /* other */
@@ -170,6 +181,13 @@ nav {
     text-align: center;
     border-radius: 100px;
     margin: 10px 0px 0px 10px;
+}
+
+.mii {
+    display: inline; 
+    float: left; 
+    margin-left: 20px;
+    height: 200px;
 }
 
 .navbutton {
