@@ -24,6 +24,7 @@
 /* ELEMENTS */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
     margin-top: 100px !important;
     margin-bottom: 100px !important;
     max-width: 750px;
+    overflow-anchor: none;
 }
 
 a, .navbutton, .socialicon, button {
@@ -230,8 +232,9 @@ nav {
     color:#e9c9c8;
     padding: 15px;
     border-radius: 8px;
-    margin: 10px 5px 10px 5px;
+    margin: 0px 15px 15px 15px;
     transition: 0.5s ease-in;
+
 }
 
 button {
