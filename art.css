@@ -292,7 +292,8 @@ h1 {
 }
 
 h1:hover {
-    text-shadow: #e9c9c8 0px 0px 5px;
+    text-shadow: #a66566 0px 0px 10px;
+    text-decoration: underline;
 }
 
 h2 {
